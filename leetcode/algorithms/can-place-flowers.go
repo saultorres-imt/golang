@@ -1,8 +1,8 @@
-package main
+package algorithms
 
 // Every odd number of ceros together starting from 3, can place 1 plant
 // 0-0-0-0-0-0
-func canPlaceFlowers(flowerbed []int, n int) bool {
+func CanPlaceFlowers(flowerbed []int, n int) bool {
 	var count int
 	var numOfFlowers int
 	var ones int
