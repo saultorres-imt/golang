@@ -26,6 +26,10 @@ func main() {
 	// fmt.Println("Greates common divisor is -> ", algorithms.GcdOfStrings(str1, str2))
 
 	// Kids with candies
-	candies, extraCandies := []int{2, 3, 5, 1, 3}, 3
-	fmt.Println("Result -> ", algorithms.KidsWithCandies(candies, extraCandies))
+	// candies, extraCandies := []int{2, 3, 5, 1, 3}, 3
+	// fmt.Println("Result -> ", algorithms.KidsWithCandies(candies, extraCandies))
+
+	// Reverse Vowels
+	str := "e0P"
+	fmt.Println("Result -> ", algorithms.ReverseVowels(str))
 }
