@@ -30,6 +30,26 @@ func main() {
 	// fmt.Println("Result -> ", algorithms.KidsWithCandies(candies, extraCandies))
 
 	// Reverse Vowels
-	str := "e0P"
-	fmt.Println("Result -> ", algorithms.ReverseVowels(str))
+	// str := "e0P"
+	// fmt.Println("Result -> ", algorithms.ReverseVowels(str))
+
+	// Reverse Strings
+	// str := "  hello  World "
+	// fmt.Println("Result -> ", algorithms.ReverseWords(str))
+
+	// Insert Delete GetRandom
+	// str := "  hello  World "
+	// fmt.Println("Result -> ", algorithms.ReverseWords(str))
+
+	// obj := algorithms.Constructor()
+	// fmt.Println(obj.Insert(1))
+	// fmt.Println(obj.Remove(1))
+	// fmt.Println(obj.GetRandom())
+
+	// Product Except Self
+	// iArr := []int{1, 2, 3, 4}
+	// fmt.Println("The array is :", algorithms.ProductExceptSelf(iArr))
+
+	// Prime Numbers
+	fmt.Println("Prime numbers that the sum of its digits is 10 or more :", algorithms.ModelMain(1, 50))
 }
