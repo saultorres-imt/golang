@@ -51,5 +51,21 @@ func main() {
 	// fmt.Println("The array is :", algorithms.ProductExceptSelf(iArr))
 
 	// Prime Numbers
-	fmt.Println("Prime numbers that the sum of its digits is 10 or more :", algorithms.ModelMain(1, 50))
+	// fmt.Println("Prime numbers that the sum of its digits is 10 or more :", algorithms.ModelMain(1, 50))
+
+	// Integer to Roman
+	// number := 1893
+	// fmt.Printf("The number %d in roman is : %s\n", number, algorithms.IntToRoman(number))
+
+	// Zigzag conversion
+	// str := "PAYPALISHIRING"
+	// rows := 4
+	// fmt.Printf("Conversion of %s with %d rows is : %s\n", str, rows, algorithms.Convert(str, rows))
+
+	// Full Justify
+	words := []string{"What", "must", "be", "acknowledgment", "shall", "be"}
+	justifyText := algorithms.FullJustify(words, 16)
+	for _, line := range justifyText {
+		fmt.Printf("\"%s\",\n", line)
+	}
 }
