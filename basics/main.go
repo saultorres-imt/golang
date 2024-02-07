@@ -22,4 +22,16 @@ https://pkg.go.dev/fmt
 func useFmt() {
 	// Adds a newline at the end of a print
 	fmt.Println("Hello World 😁")
+
+	// Common Format Specifiers in fmt.Printf:
+	// - %v: The value in a default format. When printing structs, the plus flag (%+v) adds field names.
+	// - %T: A Go-syntax representation of the type of the value.
+	// - %d: Base 10 integer formatting.
+	// - %b: Base 2 (binary) integer formatting.
+	// - %x, %X: Base 16 (hexadecimal), lowercase and uppercase formatting.
+	// - %f: Floating point number formatting.
+	// - %s: Basic string formatting.
+	// - %q: Quoted string formatting (adds double quotes around strings).
+	// - %p: Pointer address formatting (prints the memory address of a value).
+	fmt.Printf("Printing string %q\nType %T\nBinary%b\n", "Hello", 12, 5)
 }
